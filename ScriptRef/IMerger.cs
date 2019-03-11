@@ -9,11 +9,19 @@ using System.Text;
 namespace DiffPlex
 {
     
+    /// <summary>
+    /// Tesing for crossproject links
+    /// </summary>
+    /// <description>
+    /// ![](mario_5c86064709f03f2c6040e3cf.jpeg)
+    /// </description>
     public interface IMerger
     {
         
+        
         SideBySideDiffModel GetMergedText(List<string> list);
 
+        
         
         SideBySideDiffModel GetMergedText(SideBySideDiffModel model);
     }
